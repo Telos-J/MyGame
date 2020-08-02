@@ -337,13 +337,13 @@ window.addEventListener('load', function () {
     // Define player constructor function
     const Player = function () {
         // Create image object
-        MovingObject.call(this, 'images/linkSprite.png', 120, 150, 48, 64)
+        MovingObject.call(this, 'images/linkSprite.png', 100, 70, 48, 64)
 
         this.offset_top = 30
         this.offset_left = 12
         this.offset_right = 12
         this.offset_bottom = 5
-        this.direction = 'right'
+        this.direction = 'down'
         this.bullets = []
         this.bulletLimit = 2
         this.coolTime = 0
@@ -394,7 +394,7 @@ window.addEventListener('load', function () {
             ],
         }
 
-        this.frameSet = this.frameSets['walkRight']
+        this.frameSet = this.frameSets['walkDown']
         Animator.call(this, this.frameSet, 2)
 
         // Define a function for creating and firing a bullet
@@ -453,7 +453,7 @@ window.addEventListener('load', function () {
         MovingObject.call(
             this,
             'images/lizalfos_trans.png',
-            220,
+            320,
             150,
             32 * 2,
             34 * 2,
