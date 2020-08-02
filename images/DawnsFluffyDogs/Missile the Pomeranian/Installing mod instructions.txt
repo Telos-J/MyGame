@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------------------
+
+[!] Warning [!]
+
+Before you install the following mod please make sure to back up the original xnb files in your Stardew Valley folder!
+
+--------------------------------------------------------------------------------------------
+
+>> How to install the mod into your game
+
+Go into your Content folder > Animals folder and copy/move the dog.xnb there, overwriting the existing file. Be sure to have the original files saved somewhere safe.
+
+--------------------------------------------------------------------------------------------
+
+>> Credits:
+
+Sprite base made by Dawn from Stardew Valley/Chucklefish forum.
